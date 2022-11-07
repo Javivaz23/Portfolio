@@ -29,11 +29,12 @@ article div {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1;
+  text-width: ;
 }
 
 /* The div container constrains the content width within the main container to 600px */
-main {
+div {
   margin: auto;
   width: 600px;
 }
@@ -46,6 +47,7 @@ img {
 
 hr {
   border: 2px solid black;
+  max-width: 200xp;
 }
 
 /* Add your solution below */
@@ -74,3 +76,7 @@ ol {
 li {
   list-style-position: inside;
 }
+
+hr {
+  border: 2px solid black;
+  max-width: 200xp;
